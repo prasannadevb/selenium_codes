@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Websites Testing]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="Run multiple tests(failed)" verbose="2">
+    <classes>
+      <class name="testNGExample.OpenBing">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="openBing"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testNGExample.OpenBing -->
+    </classes>
+  </test> <!-- Run multiple tests(failed) -->
+  <test thread-count="5" name="OpenGoogle(failed)" verbose="2">
+    <classes>
+      <class name="testNGExample.OpenGoogle">
+        <methods>
+          <include name="openGoogle"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testNGExample.OpenGoogle -->
+    </classes>
+  </test> <!-- OpenGoogle(failed) -->
+</suite> <!-- Failed suite [Websites Testing] -->

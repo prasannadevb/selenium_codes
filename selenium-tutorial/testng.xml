@@ -1,0 +1,47 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Websites Testing" verbose="2" parallel="methods" thread-count="2">
+<!-- 	<test name="Run multiple tests">
+	<parameter name="BingURL" value="http://www.bing.com"></parameter>
+		<classes>
+			<class name="testNGExample.OpenBing" />
+		</classes>
+	</test>
+
+
+
+	<test name="OpenGoogle">
+	<parameter name="GoogleURL" value="http://www.google.com"></parameter>
+		<classes>
+			<class name="testNGExample.OpenGoogle" />
+		</classes>
+
+
+	</test>
+
+	<test name="OpenYahoo">
+	<parameter name="YahooURL" value="http://www.yahoo.com"></parameter>
+		<classes>
+			<class name="testNGExample.OpenYahoo" />
+		</classes>
+
+	</test> -->
+	
+	<!-- <test name="OpengivenURL">
+	<parameter name="url" value="http://www.yahoo.com"></parameter>
+	<classes>
+	
+	<class name="testNGExample.OpenGivenURL"></class>
+	</classes>
+	</test> -->
+	
+	
+	
+	<test name="parallel test">
+	<classes >
+	<class name="testNGExample.TestNgExample2"></class>
+	</classes>
+	
+	</test>
+	
+</suite>
