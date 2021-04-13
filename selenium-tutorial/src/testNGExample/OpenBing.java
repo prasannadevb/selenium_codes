@@ -13,7 +13,7 @@ public class OpenBing extends LaunchAndQuitBrowser {
 	
 		
 		driver.get(url);
-		//driver
+		//driver.get
 		
 		
 		 
