@@ -1,7 +1,7 @@
 
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Websites Testing" verbose="2" parallel="methods" thread-count="2">
-<!-- 	<test name="Run multiple tests">
+	<test name="Run multiple tests">
 	<parameter name="BingURL" value="http://www.bing.com"></parameter>
 		<classes>
 			<class name="testNGExample.OpenBing" />
@@ -25,7 +25,7 @@
 			<class name="testNGExample.OpenYahoo" />
 		</classes>
 
-	</test> -->
+	</test>
 	
 	<!-- <test name="OpengivenURL">
 	<parameter name="url" value="http://www.yahoo.com"></parameter>
